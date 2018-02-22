@@ -30,7 +30,7 @@ Clonar el Proyecto en su Local y ejecutar bundle install
   password: postgres
   ejecutar rake db:create
 
-# Inicialización del proyecto:
+# Inicialización del Proyecto:
 ejecutar rails s
 
 Es importante descargar ambos proyectos para que pueda funcionar el flujo completo, ya que uno funciona como Servicio Web y se comunica con el Servicio Web como Servidor Proxy, sus nombres en el repositorio son los siguientes:
