@@ -1,9 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este archivo README documenta la información necesaria sobre el Servicio Web(Proyecto 1).
 
-Proyecto que Funcionará como Web Services Principal:
+Descripción:
 
 # Versión Ruby:
 2.2.6
