@@ -86,11 +86,10 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     multi_xml (0.6.0)
-    mysql2 (0.4.10-x86-mingw32)
     nio4r (2.2.0)
     nokogiri (1.8.2-x86-mingw32)
       mini_portile2 (~> 2.3.0)
-    pg (0.15.1-x86-mingw32)
+    pg (0.18.0-x86-mingw32)
     public_suffix (3.0.2)
     puma (3.11.2)
     rack (2.0.4)
@@ -186,8 +185,7 @@ DEPENDENCIES
   coffee-script-source (= 1.8.0)
   httparty
   jbuilder (~> 2.5)
-  mysql2
-  pg (= 0.15.1)
+  pg (= 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
   rails_12factor (= 0.0.2)

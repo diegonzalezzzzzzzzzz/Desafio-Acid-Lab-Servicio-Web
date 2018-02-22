@@ -41,10 +41,10 @@ gem 'validates_email_format_of'
 gem 'awesome_print'
 #httparty
 gem 'httparty'
+#DataBase
+gem 'pg', '0.18'
 
 group :development, :test do
-  #DataBase
-  gem 'mysql2'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
@@ -59,7 +59,6 @@ end
 
 group :production do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'pg', '0.18'
   gem 'rails_12factor', '0.0.2'
 end
 
